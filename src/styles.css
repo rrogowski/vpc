@@ -13,6 +13,10 @@ body {
   background-color: #f5f4f4;
 }
 
+button {
+  width: 100%;
+}
+
 a {
   color: blue;
 }
@@ -38,6 +42,7 @@ mat-card-title {
 }
 
 mat-card-actions {
+  width: 100%;
   padding: 0 !important;
 }
 
@@ -48,4 +53,11 @@ mat-card-actions {
 .data {
   font-weight: 400;
   color: #673ab7;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Desktop */
+  button {
+    width: unset;
+  }
 }
