@@ -18,18 +18,27 @@ a {
 }
 
 p {
-  margin-bottom: 0.5rem;
   line-height: 1.5;
   font-weight: 300;
+  margin: 0 0 0.5rem 0;
+  text-align: justify;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
 
 mat-card {
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 mat-card-title {
   font-weight: bold !important;
   margin-bottom: 1rem !important;
+}
+
+mat-card-actions {
+  padding: 0 !important;
 }
 
 .emphasized {
