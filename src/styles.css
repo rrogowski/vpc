@@ -30,3 +30,8 @@ mat-card-title {
 .emphasized {
   font-weight: 400;
 }
+
+.data {
+  font-weight: 400;
+  color: #673ab7;
+}

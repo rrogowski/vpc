@@ -15,11 +15,11 @@ import { PageMooresvilleComponent } from './page-mooresville/page-mooresville.co
 import { PageProductsComponent } from './page-products/page-products.component';
 import { PageGroomingComponent } from './page-grooming/page-grooming.component';
 import { CardGroomingComponent } from './card-grooming/card-grooming.component';
-import { PhoneNumberComponent } from './phone-number/phone-number.component';
 import { CardStoreHoursComponent } from './card-store-hours/card-store-hours.component';
 import { CardStoreInformationComponent } from './card-store-information/card-store-information.component';
 import { DataEmailComponent } from './data-email/data-email.component';
 import { DataPhoneNumberComponent } from './data-phone-number/data-phone-number.component';
+import { DataAddressComponent } from './data-address/data-address.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: PageHomeComponent },
@@ -41,11 +41,11 @@ const appRoutes: Routes = [
     PageProductsComponent,
     PageGroomingComponent,
     CardGroomingComponent,
-    PhoneNumberComponent,
     CardStoreHoursComponent,
     CardStoreInformationComponent,
     DataEmailComponent,
-    DataPhoneNumberComponent
+    DataPhoneNumberComponent,
+    DataAddressComponent
   ],
   imports: [
     BrowserModule,
