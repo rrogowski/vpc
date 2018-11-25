@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-banner',
@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerComponent implements OnInit {
 
+  @Output() onDrawerToggle = new EventEmitter<void>();
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  toggleDrawer() {
+    this.onDrawerToggle.emit();
   }
 
 }

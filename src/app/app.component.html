@@ -3,10 +3,8 @@
     <app-navbar></app-navbar>
   </mat-drawer>
 
-  <app-banner></app-banner>
+  <app-banner (onDrawerToggle)="drawer.toggle()"></app-banner>
   <app-navbar class='desktop-navbar'></app-navbar>
-
-  <button mat-button (click)="drawer.toggle()">Test</button>
 
   <div class='spacing'>
     <router-outlet></router-outlet>
