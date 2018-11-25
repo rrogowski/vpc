@@ -1,9 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 * {
   box-sizing: border-box;
   font-size: 18px;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -11,8 +13,9 @@ body {
 }
 
 p {
-  margin: 0;
+  margin-bottom: 0.5rem;
   line-height: 1.5;
+  font-weight: 300;
 }
 
 mat-card {
@@ -20,5 +23,10 @@ mat-card {
 }
 
 mat-card-title {
+  font-weight: bold !important;
   margin-bottom: 1rem !important;
+}
+
+.emphasized {
+  font-weight: 400;
 }

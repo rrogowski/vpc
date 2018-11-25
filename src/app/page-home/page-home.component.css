@@ -3,10 +3,16 @@
   --pic-height: 13vw;
 }
 
-.container {
+.heading {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.heading .subtitle {
+  margin-top: 1rem;
+  font-style: italic;
+  font-weight: 300;
 }
 
 #pics {
@@ -21,11 +27,10 @@
 }
 
 .mat-button.action {
-  vertical-align: middle;
   margin: 0;
 }
 
 .action img {
-  vertical-align: text-top;
+  vertical-align: baseline;
   width: 20px;
 }
