@@ -1,3 +1,19 @@
 .spacing {
   margin: 1rem;
 }
+
+mat-drawer-container {
+  height: 100vh;
+}
+
+app-navbar.desktop-navbar {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Desktop */
+  app-navbar.desktop-navbar {
+    display: block;
+  }
+}
+

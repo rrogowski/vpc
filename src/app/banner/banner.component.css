@@ -1,8 +1,13 @@
 .navbar {
   width: 100%;
   display: grid;
-  grid-template-columns: 10px 1fr 10px;
+  grid-template-columns: 1rem 1fr 1rem;
   background-color: black;
+}
+
+img {
+  width: 250px;
+  height: 67px;
 }
 
 .sidebar-toggle {
@@ -12,7 +17,7 @@
 .sidebar-toggle button {
   padding: 0;
   color: #cbcbcb;
-  min-width: 42px;
+  min-width: 3rem;
 }
 
 .picture-container {

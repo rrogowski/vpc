@@ -1,7 +1,8 @@
 div {
   margin: 1rem;
   justify-content: center;
-  display: none;
+  display: flex;
+  flex-direction: column;
 }
 
 app-navbar-button {
@@ -11,6 +12,6 @@ app-navbar-button {
 @media only screen and (min-width: 768px) {
   /* Desktop */
   div {
-    display: flex;
+    flex-direction: row;
   }
 }

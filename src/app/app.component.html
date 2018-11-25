@@ -1,6 +1,14 @@
-<app-banner></app-banner>
-<app-navbar></app-navbar>
+<mat-drawer-container autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="over">
+    <app-navbar></app-navbar>
+  </mat-drawer>
 
-<div class='spacing'>
-  <router-outlet></router-outlet>
-</div>
+  <app-banner></app-banner>
+  <app-navbar class='desktop-navbar'></app-navbar>
+
+  <button mat-button (click)="drawer.toggle()">Test</button>
+
+  <div class='spacing'>
+    <router-outlet></router-outlet>
+  </div>
+</mat-drawer-container>
