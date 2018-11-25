@@ -1,0 +1,31 @@
+* {
+  --pic-width: 20vw;
+  --pic-height: 13vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pics {
+  display: grid;
+  height: var(--pic-height);
+  grid-template-columns: var(--pic-width) var(--pic-width) var(--pic-width);
+}
+
+#pics img {
+  width: 100%;
+  height: 100%;
+}
+
+.mat-button.action {
+  vertical-align: middle;
+  margin: 0;
+}
+
+.action img {
+  vertical-align: text-top;
+  width: 20px;
+}
