@@ -1,7 +1,28 @@
-div {
+.navbar {
   width: 100%;
-  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 10px 1fr 10px;
+  background-color: black;
+}
+
+.sidebar-toggle {
+  display: flex;
+}
+
+.sidebar-toggle button {
+  padding: 0;
+  color: #cbcbcb;
+  min-width: 42px;
+}
+
+.picture-container {
   display: flex;
   justify-content: center;
-  background-color: black;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Desktop */
+  .sidebar-toggle {
+    visibility: hidden;
+  }
 }
