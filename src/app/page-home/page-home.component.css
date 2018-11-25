@@ -26,8 +26,8 @@
   height: 100%;
 }
 
-.mat-button.action {
-  margin: 0;
+.mat-stroked-button.action {
+  margin: 0.25rem;
 }
 
 .action img {

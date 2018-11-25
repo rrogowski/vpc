@@ -20,6 +20,7 @@ import { CardStoreInformationComponent } from './card-store-information/card-sto
 import { DataEmailComponent } from './data-email/data-email.component';
 import { DataPhoneNumberComponent } from './data-phone-number/data-phone-number.component';
 import { DataAddressComponent } from './data-address/data-address.component';
+import { NavbarButtonComponent } from './navbar-button/navbar-button.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: PageHomeComponent },
@@ -45,7 +46,8 @@ const appRoutes: Routes = [
     CardStoreInformationComponent,
     DataEmailComponent,
     DataPhoneNumberComponent,
-    DataAddressComponent
+    DataAddressComponent,
+    NavbarButtonComponent
   ],
   imports: [
     BrowserModule,
