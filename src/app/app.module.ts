@@ -13,7 +13,6 @@ import { AppComponent } from './app.component';
 import { BannerComponent } from './banner/banner.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PageHomeComponent } from './page-home/page-home.component';
-import { PageMooresvilleComponent } from './page-mooresville/page-mooresville.component';
 import { PageProductsComponent } from './page-products/page-products.component';
 import { PageGroomingComponent } from './page-grooming/page-grooming.component';
 import { CardGroomingComponent } from './card-grooming/card-grooming.component';
@@ -26,7 +25,6 @@ import { NavbarButtonComponent } from './navbar-button/navbar-button.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: PageHomeComponent },
-  { path: 'mooresville', component: PageMooresvilleComponent },
   { path: 'grooming', component: PageGroomingComponent },
   { path: 'products', component: PageProductsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -40,7 +38,6 @@ const appRoutes: Routes = [
     BannerComponent,
     NavbarComponent,
     PageHomeComponent,
-    PageMooresvilleComponent,
     PageProductsComponent,
     PageGroomingComponent,
     CardGroomingComponent,
