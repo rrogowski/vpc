@@ -61,4 +61,12 @@ mat-card-actions {
   button {
     width: unset;
   }
+
+  mat-drawer {
+    display: none !important;
+  }
+
+  .mat-drawer-backdrop {
+    display: none !important;
+  }
 }
