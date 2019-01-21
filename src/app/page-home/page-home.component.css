@@ -1,6 +1,6 @@
 * {
   --pic-width: 20vw;
-  --pic-height: 13vw;
+  --pic-height: 15vw;
 }
 
 .heading {
@@ -34,4 +34,21 @@
 .action img {
   vertical-align: baseline;
   width: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Desktop */
+  .row {
+    display: flex;
+  }
+
+  .store-info {
+    width: 50%;
+    margin-right: 0.5rem;
+  }
+
+  .store-hours {
+    width: 50%;
+    margin-left: 0.5rem;
+  }
 }

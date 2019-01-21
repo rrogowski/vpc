@@ -5,6 +5,11 @@
 
 .product-list a {
   text-decoration: none;
+  margin: 0.25rem;
+}
+
+button {
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {

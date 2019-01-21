@@ -1,8 +1,8 @@
 <div class='heading'>
   <div id='pics'>
-    <img src="assets/1.jpg">
-    <img src="assets/2.jpg">
-    <img src="assets/3.jpg">
+    <img src="assets/cats.jpg">
+    <img src="assets/diesel.jpg">
+    <img src="assets/elly.jpg">
   </div>
 
   <span class='subtitle'>Lake Norman's Premier Choice for the Best Quality Pet Foods and Products</span>
@@ -18,9 +18,10 @@
       Located at <app-data-address></app-data-address>.
       Please stop by to say hello (pets always welcome)!
     </p>
+    <br>
     <mat-card-actions>
       <a target="_blank" href="https://www.facebook.com/Village-Paws-and-Claws-102316818248/">
-        <button mat-stroked-button class='action'>
+        <button mat-raised-button color="primary" class='action'>
           <img src="assets/facebook.png">
           Like Us On Facebook!
         </button>
@@ -28,5 +29,11 @@
     </mat-card-actions>
   </mat-card-content>
 </mat-card>
-<app-card-store-information></app-card-store-information>
-<app-card-store-hours></app-card-store-hours>
+<div class="row">
+  <div class="store-info">
+    <app-card-store-information></app-card-store-information>
+  </div>
+  <div class="store-hours">
+    <app-card-store-hours></app-card-store-hours>
+  </div>
+</div>

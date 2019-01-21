@@ -12,14 +12,11 @@
 body {
   margin: 0;
   background-color: #f5f4f4;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
 }
 
 button {
   width: 100%;
-}
-
-a {
-  color: blue;
 }
 
 p {
@@ -35,6 +32,8 @@ p:last-child {
 
 mat-card {
   margin: 1rem 0;
+  box-shadow: none !important;
+  background-color: #f3f3f385 !important;
 }
 
 mat-card-title {
@@ -53,7 +52,6 @@ mat-card-actions {
 
 .data {
   font-weight: 400;
-  color: #673ab7;
 }
 
 @media only screen and (min-width: 768px) {
