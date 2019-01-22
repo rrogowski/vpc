@@ -1,5 +1,5 @@
 <div>
-  <app-navbar-button router_link="home"></app-navbar-button>
-  <app-navbar-button router_link="grooming"></app-navbar-button>
-  <app-navbar-button router_link="products"></app-navbar-button>
+  <button *ngFor="let router_link of ['home', 'grooming', 'products']" mat-button color="primary" routerLink="/{{router_link}}" (click)="closeDrawer()">
+    {{router_link | titlecase}}
+  </button>
 </div>
