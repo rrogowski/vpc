@@ -1,6 +1,6 @@
 <mat-drawer-container autosize>
   <mat-drawer #drawer class="example-sidenav" mode="over">
-    <app-navbar></app-navbar>
+    <app-navbar (drawerClose)="drawer.close()"></app-navbar>
   </mat-drawer>
 
   <app-banner (onDrawerToggle)="drawer.toggle()"></app-banner>
