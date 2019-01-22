@@ -15,7 +15,6 @@ export class NavbarComponent implements OnInit {
   }
 
   closeDrawer(): void {
-    console.log('closing drawer');
     this.drawerClose.emit();
   }
 
