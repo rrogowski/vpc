@@ -24,8 +24,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Deploy to GitHub Pages
 
-	ng build --prod --base-href "https://rrogowski.github.io/vpc/"
-	ngh --dir=dist/vpc/
+	npm run deploy
 
 ## Further help
 
